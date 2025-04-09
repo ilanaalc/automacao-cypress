@@ -16,13 +16,20 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Cadastro de Usuário::` Tirar dúvidas
-<p align="justify"
-Com esta funcionalidade, você pode tirar suas dúvidas, sejam elas relacionadas ao conteúdo que você estava buscando ou não.
+:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento de cadastro de um novo usuário com sucesso <p>
+*Dado* que ao acessar a página de cadastro do site Adopet <p>
+*Quando* preencher todos os campos de cadastro solicitados com dados válidoso <p>
+*E* clicar para cadastrar <p>
+*Então* o sistema deverá realizar o cadastro do novo usuário com sucesso <p>
 
-:heavy_check_mark: `Funcionalidade 3:` Criar exercícios personalizados
-<p align="justify"
-Por último, você também pode gerar exercícios para a prática dos conteúdos que você esteja buscando. Além disso, os exercícios são gerados de forma totalmente personalizada para você, com a quantidade de questões que deseja e o nível de dificuldade que você informar.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento  <p>
+*Dado* 
+*Quando* 
+*E* 
+*Então* 
+
 
 ## Ferramentas Utilizadas
 <p> ▫️ Google Colab 
