@@ -11,44 +11,50 @@ O projeto abrange testes automatizados em **fluxos de cadastro de usuários e lo
 
 ## Principais Cenários de Testes 
 
-### 1.Cadastro de Usuário - Cenário Sucesso: Garantir o correto comportamento de acesso à página de cadastro de um novo usuário com sucesso Adopet <p>
-*Dado* que ao acessar a página inicial do site Adopet <p>
-*Quando* clicar na opção de cadastramento de usuário <p>
-*Então* o sistema deverá direcionar o usuário para a tela de cadastro <p>
+### 1. Cadastro de Usuário - Cenário Sucesso
+**Objetivo:** Garantir o correto comportamento de acesso à página de cadastro de um novo usuário com sucesso Adopet <p>
+**Dado** que ao acessar a página inicial do site Adopet <p>
+**Quando** clicar na opção de cadastramento de usuário <p>
+**Então** o sistema deverá direcionar o usuário para a tela de cadastro <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de cadastro de um novo usuário com sucesso <p>
-*Dado* que ao acessar a página de cadastro do site Adopet <p>
-*Quando* preencher todos os campos de cadastro solicitados com dados válidos <p>
-*E* clicar para cadastrar <p>
-*Então* o sistema deverá realizar o cadastro do novo usuário com sucesso <p>
+### 2. Cadastro de Usuário - Cenário Sucesso
+**Objetivo:** Garantir o correto comportamento de cadastro de um novo usuário com sucesso <p>
+**Dado** que ao acessar a página de cadastro do site Adopet <p>
+**Quando** preencher todos os campos de cadastro solicitados com dados válidos <p>
+**E** clicar para cadastrar <p>
+**Então** o sistema deverá realizar o cadastro do novo usuário com sucesso <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto acesso de visualização de pets disponíveis para adoção <p>
-*Dado* que ao acessar a página inicial do site Adopet <p>
-*Quando* clicar para visualizar os pets disponíveis para adoção <p>
-*Então* o sistema deverá exibir os dados cadastrados dos pets para adoção <p>
+### 3. Cadastro de Usuário - Cenário Sucesso
+**Objetivo:** Garantir o correto acesso de visualização de pets disponíveis para adoção <p>
+**Dado** que ao acessar a página inicial do site Adopet <p>
+**Quando** clicar para visualizar os pets disponíveis para adoção <p>
+**Então** o sistema deverá exibir os dados cadastrados dos pets para adoção <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Cadastro de Usuário - Cenário Negativo:` Garantir mensagem de erro ao tentar realizar o cadastro sem preencher o formulário <p>
-*Dado* que ao acessar a página de cadastro de usuário do site Adopet <p>
-*Quando* não preencher o formulário com os dados solicitados <p>
-*E* clicar para cadastrar <p>
-*Então* o sistema deverá exibir uma mensagem de erro ao usuário solicitando o preenchimento dos campos <p>
+### 4. Cadastro de Usuário - Cenário Negativo:
+**Objetivo:** Garantir mensagem de erro ao tentar realizar o cadastro sem preencher o formulário <p>
+**Dado** que ao acessar a página de cadastro de usuário do site Adopet <p>
+**Quando** não preencher o formulário com os dados solicitados <p>
+**E** clicar para cadastrar <p>
+**Então** o sistema deverá exibir uma mensagem de erro ao usuário solicitando o preenchimento dos campos <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Login de Usuário - Cenário Sucesso:` Garantir o correto comportamento de autenticação do usuário com sucesso <p>
-*Dado* que ao acessar a página de login do site Adopet <p>
-*Quando* preencher os campos de e-mail e senha com dados cadastrados <p>
-*Então* o sistema deverá realizar a autenticação do usuário com sucesso <p>
+### 5. Login de Usuário - Cenário Sucesso
+**Objetivo:** Garantir o correto comportamento de autenticação do usuário com sucesso <p>
+**Dado** que ao acessar a página de login do site Adopet <p>
+**Quando** preencher os campos de e-mail e senha com dados cadastrados <p>
+**Então** o sistema deverá realizar a autenticação do usuário com sucesso <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Login de Usuário - Cenário Negativo:`Garantir mensagem de erro no login quando os dados não forem preenchidos<p>
+### 6. Login de Usuário - Cenário Negativo
+**Objetivo:** Garantir mensagem de erro no login quando os dados não forem preenchidos<p>
 *Dado* que ao acessar a página de login do site Adopet <p>
 *Quando* não preencher os campos de e-mail e senha <p>
 *E* clicar para realizar o login <p>
@@ -56,7 +62,8 @@ O projeto abrange testes automatizados em **fluxos de cadastro de usuários e lo
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Login de Usuário - Cenário Negativo:` Garantir mensagem de erro no login com dados não registrados <p>
+### 7. Login de Usuário - Cenário Negativo
+**Objetivo:** Garantir mensagem de erro no login com dados não registrados <p>
 *Dado* que ao acessar a página de login do site Adopet <p>
 *Quando* preencher os campos de e-mail e senha com dados não registrados no sistema <p>
 *E* clicar para realizar o login <p>
@@ -64,7 +71,8 @@ O projeto abrange testes automatizados em **fluxos de cadastro de usuários e lo
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Login de Usuário - Cenário Negativo:` Garantir mensagem de erro no login com dados inválidos <p>
+### 8. Login de Usuário - Cenário Negativo
+**Objetivo:** Garantir mensagem de erro no login com dados inválidos <p>
 *Dado* que ao acessar a página de login do site Adopet <p>
 *Quando* preencher os campos de e-mail e senha com dados inválidos <p>
 *E* clicar para realizar o login <p>
