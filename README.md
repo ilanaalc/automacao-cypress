@@ -26,7 +26,7 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 :heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto acesso de visualização de pets disponíveis para adoção <p>
 *Dado* que ao acessar a página inicial do site Adopet <p>
-*Quando* disponíveis para adoção <p>
+*Quando* clicar para visualizar os pets disponíveis para adoção <p>
 *Então* o sistema deverá exibir os dados cadastrados dos pets para adoção <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -46,11 +46,27 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+:heavy_check_mark: `Login de Usuário - Cenário Negativo:`Garantir mensagem de erro no login quando os dados não forem preenchidos<p>
+*Dado* que ao acessar a página de login do site Adopet <p>
+*Quando* não preencher os campos de e-mail e senha <p>
+*E* clicar para realizar o login <p>
+*Então* o sistema deverá exibir uma mensagem de erro ao usuário solicitando o preenchimento dos dados para login <p>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 :heavy_check_mark: `Login de Usuário - Cenário Negativo:` Garantir mensagem de erro no login com dados não registrados <p>
 *Dado* que ao acessar a página de login do site Adopet <p>
 *Quando* preencher os campos de e-mail e senha com dados não cadastrados <p>
-*Então* o sistema deverá exibir uma mensagem de erro ao usuário solicitando o preenchimento dos dados para login <p>
+*E* clicar para realizar o login <p>
+*Então* o sistema deverá exibir uma mensagem de erro ao usuário informando falha no login para a revisão das credenciais de acesso <p>
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+:heavy_check_mark: `Login de Usuário - Cenário Negativo:` Garantir mensagem de erro no login com dados inválidos <p>
+*Dado* que ao acessar a página de login do site Adopet <p>
+*Quando* preencher os campos de e-mail e senha com dados inválidos <p>
+*E* clicar para realizar o login <p>
+*Então* o sistema deverá exibir uma mensagem de erro ao usuário solicitando a verificação dos dados preenchidos <p>
 
 
 ## Ferramentas Utilizadas
