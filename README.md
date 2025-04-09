@@ -80,14 +80,42 @@ O projeto abrange testes automatizados em **fluxos de cadastro de usuários e lo
 
 
 ## Ferramentas Utilizadas
-<p> ▫️ **Visual Studio Code:** Editor de código utilizado para o desenvolvimento dos scripts de teste.
+<p> ▫️ Visual Studio Code: Editor de código utilizado para o desenvolvimento dos scripts de teste.
 
 ## Frameworks Utilizados
-<p> ▫️ **Cypress:** Framework de testes E2E (End-to-End) utilizado para automação de testes, garantindo a validação de fluxos de usuário e integração do sistema. <p>
-<p> ▫️ **Mocha para relatórios**: Framework de teste que, em conjunto com o Cypress, é utilizado para estruturar os testes e gerar relatórios de execução. <p>
+<p> ▫️ Cypress: Framework de testes E2E (End-to-End) utilizado para automação de testes, garantindo a validação de fluxos de usuário e integração do sistema. <p>
+<p> ▫️ Mocha para relatórios: Framework de teste que, em conjunto com o Cypress, é utilizado para estruturar os testes e gerar relatórios de execução. <p>
 
 ## Linguagem de Programação
-<p> ▫️ **JavaScript:** Linguagem de programação utilizada para escrever os scripts de teste e interagir com os elementos da aplicação. <p>
+<p> ▫️ JavaScript: Linguagem de programação utilizada para escrever os scripts de teste e interagir com os elementos da aplicação. <p>
+
+## Executando o projeto
+### Pré-requisitos
+Certifique-se de ter os seguintes requisitos instalados:
+- **Node.js** (versão recomendada 14.x ou superior)
+- **npm** (gerenciador de pacotes do Node.js)
+
+### Passo a Passo
+1. **Clone o repositório**  
+   Use o comando para clonar o repositório:
+   - `git clone [link do repositório]`
+   - Navegue para o diretório do projeto: `cd adopet-cypress`
+
+2. **Instale as dependências**  
+   Após clonar o repositório, instale as dependências necessárias:
+   - Se estiver usando **npm**, execute: `npm install`
+   - Se estiver usando **yarn**, execute: `yarn install`
+
+3. **Rodar os testes com o Cypress**  
+   Para rodar os testes com a interface gráfica do Cypress, execute o seguinte comando:
+   - `npx cypress open`
+
+4. **Rodar os testes em modo headless (sem interface gráfica)**  
+   Se preferir rodar os testes sem a interface gráfica, use o modo headless com:
+   - `npx cypress run`
+
+### Visualizando os Relatórios de Teste
+Os relatórios de execução dos testes são gerados automaticamente e ficam disponíveis na pasta `./results`. Para visualizar os detalhes dos testes, basta abrir o arquivo `.html` na pasta gerada em qualquer navegador.
 
 
 ## Autores do Projeto
