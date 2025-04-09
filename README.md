@@ -1,15 +1,17 @@
-# Automação de Testes da Página Adopet com Cypress
+# Automatização de Testes no Site Adopet com Cypress
 
 ## Descrição do projeto 
 
 <p align="justify">
-Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cypress: automatizando testes E2E" da escola de tecnologia Alura e tem como principal objetivo utilizar os recursos do Cypress para a automatização de testes da página Adopet, um site voltado ao cadastramento do usuário para o programa de adoção de pets. Visto isso, foi realizado o mapeamento dos cenários de testes positivos e negativos de cadastro e login de usuário para o desenvolvimento dos scripts de testes.
+Este projeto foi desenvolvido com base no curso "Cypress: Automatizando Testes E2E" da Alura e tem como objetivo automatizar os testes das funcionalidades no site **Adopet**, voltado ao cadastramento de usuários para adoção de pets. Com o uso do **Cypress**, foram criados cenários de testes positivos e negativos para garantir que o processo de **cadastro** e **login** funcionasse de forma eficaz e segura, garantindo uma experiência de usuário sem erros.
+
+O projeto abrange testes automatizados em **fluxos de cadastro de usuários e login**, fundamentais para a operação do site. O objetivo principal é fornecer maior confiança na qualidade do sistema e reduzir o tempo necessário para detectar regressões e falhas.
 
 </p>
 
 ## Principais Cenários de Testes 
 
-:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de acesso à página de cadastro de um novo usuário com sucesso Adopet <p>
+### 1.Cadastro de Usuário - Cenário Sucesso: Garantir o correto comportamento de acesso à página de cadastro de um novo usuário com sucesso Adopet <p>
 *Dado* que ao acessar a página inicial do site Adopet <p>
 *Quando* clicar na opção de cadastramento de usuário <p>
 *Então* o sistema deverá direcionar o usuário para a tela de cadastro <p>
