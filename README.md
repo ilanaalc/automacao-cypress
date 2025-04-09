@@ -9,7 +9,7 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 ## Principais Cenários de Testes 
 
-:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de acesso a página de cadastro de um novo usuário com sucesso Adopet <p>
+:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de acesso à página de cadastro de um novo usuário com sucesso Adopet <p>
 *Dado* que ao acessar a página inicial do site Adopet <p>
 *Quando* clicar na opção de cadastramento de usuário <p>
 *Então* o sistema deverá direcionar o usuário para a tela de cadastro <p>
@@ -18,7 +18,7 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 :heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de cadastro de um novo usuário com sucesso <p>
 *Dado* que ao acessar a página de cadastro do site Adopet <p>
-*Quando* preencher todos os campos de cadastro solicitados com dados válidoso <p>
+*Quando* preencher todos os campos de cadastro solicitados com dados válidos <p>
 *E* clicar para cadastrar <p>
 *Então* o sistema deverá realizar o cadastro do novo usuário com sucesso <p>
 
