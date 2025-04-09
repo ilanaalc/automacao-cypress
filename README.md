@@ -14,7 +14,8 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 *Quando* clicar na opção de cadastramento de usuário <p>
 *Então* o sistema deverá direcionar o usuário para a tela de cadastro <br>
 
-<p align="justify">
+
+
   
 :heavy_check_mark: `Funcionalidade 2:` Tirar dúvidas
 <p align="justify"
