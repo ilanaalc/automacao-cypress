@@ -80,14 +80,14 @@ O projeto abrange testes automatizados em **fluxos de cadastro de usuários e lo
 
 
 ## Ferramentas Utilizadas
-<p> ▫️ Visual Studio Code: Editor de código utilizado para o desenvolvimento dos scripts de teste.
+<p> ▫️ **Visual Studio Code:** Editor de código utilizado para o desenvolvimento dos scripts de teste.
 
 ## Frameworks Utilizados
-<p> ▫️ Cypress: Framework de testes E2E (End-to-End) utilizado para automação de testes, garantindo a validação de fluxos de usuário e integração do sistema. <p>
-<p> ▫️ Mocha para relatórios: Framework de teste que, em conjunto com o Cypress, é utilizado para estruturar os testes e gerar relatórios de execução. <p>
+<p> ▫️ **Cypress:** Framework de testes E2E (End-to-End) utilizado para automação de testes, garantindo a validação de fluxos de usuário e integração do sistema. <p>
+<p> ▫️ **Mocha para relatórios**: Framework de teste que, em conjunto com o Cypress, é utilizado para estruturar os testes e gerar relatórios de execução. <p>
 
 ## Linguagem de Programação
-<p> ▫️ JavaScript: Linguagem de programação utilizada para escrever os scripts de teste e interagir com os elementos da aplicação. <p>
+<p> ▫️ **JavaScript:** Linguagem de programação utilizada para escrever os scripts de teste e interagir com os elementos da aplicação. <p>
 
 
 ## Autores do Projeto
