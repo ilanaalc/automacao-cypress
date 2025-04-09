@@ -1,0 +1,16 @@
+{
+  "name": "curso_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress_open": "npx cypress open",
+    "cypress_run": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "mochawesome": "^7.1.3"
+  }
+}

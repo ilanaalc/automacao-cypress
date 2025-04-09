@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "name": "Black Panther",
+      "email": "black.panther@alura.com",
+      "password": "SenhaPanther123"
+    },
+    {
+      "name": "Scarlet Witch",
+      "email": "scarlet.witch@alura.com.br",
+      "password": "SenhaWitch1234"
+    },
+    {
+      "name": "Vision",
+      "email": "vision@alura.com",
+      "password": "SenhaVision12345"
+    },
+    {
+      "name": "Ant-Man",
+      "email": "antman@alura.com.br",
+      "password": "SenhaAntMan123456"
+    },
+    {
+      "name": "Wolverine",
+      "email": "wolverine@alura.com",
+      "password": "SenhaWolverine1234567"
+    },
+    {
+      "name": "Professor X",
+      "email": "professor.x@alura.com.br",
+      "password": "SenhaProfessorX12345678"
+    }
+  ]
+}
