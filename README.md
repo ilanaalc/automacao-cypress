@@ -56,7 +56,7 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 :heavy_check_mark: `Login de Usuário - Cenário Negativo:` Garantir mensagem de erro no login com dados não registrados <p>
 *Dado* que ao acessar a página de login do site Adopet <p>
-*Quando* preencher os campos de e-mail e senha com dados não cadastrados <p>
+*Quando* preencher os campos de e-mail e senha com dados não registrados no sistema <p>
 *E* clicar para realizar o login <p>
 *Então* o sistema deverá exibir uma mensagem de erro ao usuário informando falha no login para a revisão das credenciais de acesso <p>
 
