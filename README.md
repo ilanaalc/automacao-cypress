@@ -9,10 +9,10 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 ## Cenários de Testes
 
-:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento de acesso a página de cadastro de um novo usuário com sucesso Adopet
-Dado que ao acessar a página inicial do site Adopet
-Quando clicar na opção de cadastramento de usuário
-Então o sistema deverá direcionar o usuário para a tela de cadastro
+:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento de acesso a página de cadastro de um novo usuário com sucesso Adopet <p>
+Dado que ao acessar a página inicial do site Adopet <p>
+Quando clicar na opção de cadastramento de usuário <p>
+Então o sistema deverá direcionar o usuário para a tela de cadastro <p>
 
 :heavy_check_mark: `Funcionalidade 2:` Tirar dúvidas
 <p align="justify"
