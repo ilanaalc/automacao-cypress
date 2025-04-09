@@ -7,16 +7,16 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 </p>
 
-## Cenários de Testes
+## Principais Cenários de Testes 
 
-:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento de acesso a página de cadastro de um novo usuário com sucesso Adopet <p>
+:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de acesso a página de cadastro de um novo usuário com sucesso Adopet <p>
 *Dado* que ao acessar a página inicial do site Adopet <p>
 *Quando* clicar na opção de cadastramento de usuário <p>
 *Então* o sistema deverá direcionar o usuário para a tela de cadastro <p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento de cadastro de um novo usuário com sucesso <p>
+:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto comportamento de cadastro de um novo usuário com sucesso <p>
 *Dado* que ao acessar a página de cadastro do site Adopet <p>
 *Quando* preencher todos os campos de cadastro solicitados com dados válidoso <p>
 *E* clicar para cadastrar <p>
@@ -24,11 +24,33 @@ Este projeto foi construído com base nos conhecimentos adquiridos do curso "Cyp
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:heavy_check_mark: `Cadastro de Usuário:` Garantir o correto comportamento  <p>
-*Dado* 
-*Quando* 
-*E* 
-*Então* 
+:heavy_check_mark: `Cadastro de Usuário - Cenário Sucesso:` Garantir o correto acesso de visualização de pets disponíveis para adoção <p>
+*Dado* que ao acessar a página inicial do site Adopet <p>
+*Quando* disponíveis para adoção <p>
+*Então* o sistema deverá exibir os dados cadastrados dos pets para adoção <p>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+:heavy_check_mark: `Cadastro de Usuário - Cenário Negativo:` Garantir mensagem de erro ao tentar realizar o cadastro sem preencher o formulário <p>
+*Dado* que ao acessar a página de cadastro de usuário do site Adopet <p>
+*Quando* não preencher o formulário com os dados solicitados <p>
+*E* clicar para cadastrar <p>
+*Então* o sistema deverá exibir uma mensagem de erro ao usuário solicitando o preenchimento dos campos <p>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+:heavy_check_mark: `Login de Usuário - Cenário Sucesso:` Garantir o correto comportamento de autenticação do usuário com sucesso <p>
+*Dado* que ao acessar a página de login do site Adopet <p>
+*Quando* preencher os campos de e-mail e senha com dados cadastrados <p>
+*Então* o sistema deverá realizar a autenticação do usuário com sucesso <p>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+:heavy_check_mark: `Login de Usuário - Cenário Negativo:` Garantir mensagem de erro no login com dados não registrados <p>
+*Dado* que ao acessar a página de login do site Adopet <p>
+*Quando* preencher os campos de e-mail e senha com dados não cadastrados <p>
+*Então* o sistema deverá exibir uma mensagem de erro ao usuário solicitando o preenchimento dos dados para login <p>
+
 
 
 ## Ferramentas Utilizadas
